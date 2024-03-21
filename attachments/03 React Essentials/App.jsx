@@ -38,8 +38,12 @@ function App() {
     <h1>Time to Practice</h1>
     <p>One course, many goals! 🎯</p>
     <ul>
-      {/* OUTPUT AT LEAST TWO CourseGoal components here */}
-      {/* One of them should have a title of “Learn React” and a description of “In-depth” */}
+      <div id="user" data-testid="user">
+        <h2>
+          {userData.firstName} {userData.lastName}
+        </h2>
+        <p>{userData.title}</p>
+      </div>
     </ul>
   </div>
 }
