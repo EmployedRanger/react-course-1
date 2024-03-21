@@ -83,4 +83,21 @@ function App() {
   );
 }
 
+// export default function App() {
+
+//   const [hightlighted, setHighlighted] = React.useState(false);
+
+//   function handleClick () {
+//       setHighlighted(isHighlighted => ! isHighlighted);
+//   }
+
+//   return (
+//       <div>
+//           <p className = {hightlighted ? 'active' : undefined}>Style me!</p>
+//           <button onClick={handleClick}>Toggle style</button>
+//       </div>
+//   );
+// }
+
+
 export default App;
