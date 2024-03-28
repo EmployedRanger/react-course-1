@@ -12,7 +12,7 @@ function App() {
 
       GAME BOARD
     </div>
-
+    LOG
   </main>
 }
 
