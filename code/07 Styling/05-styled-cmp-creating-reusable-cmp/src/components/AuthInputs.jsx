@@ -32,32 +32,32 @@ export default function AuthInputs() {
   const passwordNotValid = submitted && enteredPassword.trim().length < 6;
 
   return (
-    <div id="auth-inputs">
+    <><div id="auth-inputs">
       <ControlContainer>
-        <Input
-          label="Email"
-          invalid={emailNotValid}
-          type="email"
+        <Input />
+        <Label className={`label ${emailNotValid ? 'invalid' : ''}` >
+          Email} />
+        label="Email"
+        invalid={emailNotValid}
+        type="email"
           // style={{
           //   backgroundColor: emailNotValid ? '#fed2d2' : '#d1d5db'
           // }}
-          onChange={(event) => handleInputChange('email', event.target.value)}
-        />
+          onChange = {}(event)
+        }} => handleInputChange('email', event.target.value)}
+      />
         <Input
           invalid={passwordNotValid}
           label="Password"
           type="password"
-          onChange={(event) =>
-            handleInputChange('password', event.target.value)
-          }
-        />
+          onChange={(event) => handleInputChange('password', event.target.value)} />
       </ControlContainer>
       <div className="actions">
         <button type="button" className="text-button">
           Create a new account
         </button>
         <Button onClick={handleLogin}>Sign In</Button>
-      </div>
-    </div>
+      </div></>
+    </div >
   );
 }
