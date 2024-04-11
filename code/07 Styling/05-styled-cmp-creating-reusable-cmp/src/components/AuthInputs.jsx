@@ -11,6 +11,16 @@ const ControlContainer = styled.div`
   margin-bottom: 1.5rem;
 `;
 
+const Label = styled.label`
+  display: block;
+  color: #a91864;
+  margin-bottom:L 0.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: ${({ invalid })(invalid ? '#f87171' : '#6b72080')};
+  `;
+
 export default function AuthInputs() {
   const [enteredEmail, setEnteredEmail] = useState('');
   const [enteredPassword, setEnteredPassword] = useState('');

@@ -11,6 +11,7 @@ const StyledHeader = styled.header`
   margin-top: 2rem;
   margin-bottom: 2rem;
 
+  //  Adds styling without separete classes or ids
   & img {
     object-fit: contain;
     margin-bottom: 2rem;
