@@ -22,7 +22,7 @@ export default function AuthInputs() {
 
   return (
     <div id="auth-inputs">
-      <div className="controls">
+      <div className="controls paragraph">
         <p>
           <label>Email</label>
           <input

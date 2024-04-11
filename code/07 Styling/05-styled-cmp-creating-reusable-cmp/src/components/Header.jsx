@@ -19,7 +19,7 @@ const StyledHeader = styled.header`
     height: 11rem;
   }
   
-  & h1 {
+  & h1:hover {
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 0.4em;
