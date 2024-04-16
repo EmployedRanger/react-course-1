@@ -11,3 +11,6 @@ export default function App() {
     </>
   );
 }
+
+// Notes 
+// react uses a lot of imports and exports
