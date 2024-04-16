@@ -20,3 +20,5 @@ export default function ArrowRightIcon(props) {
     </svg>
   );
 }
+
+// Still getting used to breaking down componenets this small

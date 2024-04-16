@@ -84,3 +84,5 @@ const Counter = memo(function Counter({ initialCount }) {
 });
 
 export default Counter;
+
+// followed along, no way I could come up with this on my own
