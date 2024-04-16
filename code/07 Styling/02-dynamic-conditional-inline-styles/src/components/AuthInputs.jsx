@@ -13,6 +13,7 @@ export default function AuthInputs() {
     }
   }
 
+  
   function handleLogin() {
     setSubmitted(true);
   }

@@ -12,6 +12,7 @@ const storedPlaces = storedIds.map((id) =>
   AVAILABLE_PLACES.find((place) => place.id === id)
 );
 
+
 function App() {
   const modal = useRef();
   const selectedPlace = useRef();
