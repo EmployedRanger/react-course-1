@@ -27,3 +27,5 @@ export function useFetch(fetchFn, initialValue) {
     error
   }
 }
+
+// I still don't totally get hooks

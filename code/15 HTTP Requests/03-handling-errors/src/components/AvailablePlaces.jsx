@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-
 import Places from './Places.jsx';
 import Error from './Error.jsx';
+
 
 export default function AvailablePlaces({ onSelectPlace }) {
   const [isFetching, setIsFetching] = useState(false);

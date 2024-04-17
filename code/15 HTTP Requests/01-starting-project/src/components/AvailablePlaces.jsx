@@ -1,5 +1,6 @@
 import Places from './Places.jsx';
 
+
 export default function AvailablePlaces({ onSelectPlace }) {
   return (
     <Places
