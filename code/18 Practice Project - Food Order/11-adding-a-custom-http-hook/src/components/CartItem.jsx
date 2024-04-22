@@ -1,12 +1,14 @@
 import { currencyFormatter } from '../util/formatting.js';
 
+
 export default function CartItem({
   name,
   quantity,
   price,
   onIncrease,
   onDecrease,
-}) {
+}) 
+{
   return (
     <li className="cart-item">
       <p>

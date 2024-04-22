@@ -1,6 +1,7 @@
 import { currencyFormatter } from '../util/formatting.js';
 import Button from './UI/Button.jsx';
 
+
 export default function MealItem({ meal }) {
   return (
     <li className="meal-item">

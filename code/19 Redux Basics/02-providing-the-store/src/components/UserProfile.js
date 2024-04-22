@@ -1,5 +1,6 @@
 import classes from './UserProfile.module.css';
 
+
 const UserProfile = () => {
   return (
     <main className={classes.profile}>
@@ -7,5 +8,6 @@ const UserProfile = () => {
     </main>
   );
 };
+
 
 export default UserProfile;
